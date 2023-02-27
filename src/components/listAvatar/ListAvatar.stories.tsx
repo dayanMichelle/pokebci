@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { pokemonMock } from "../../test/mocks/pokemonMock";
 import { ListAvatar } from "./ListAvatar";
-import '../../index.css'
+import "../../index.css";
 
 export default {
   title: "ListAvatar",

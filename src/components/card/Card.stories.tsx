@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { Card } from "./Card";
 import { pokemonMock } from "../../test/mocks/pokemonMock";
-import '../../index.css'
+import "../../index.css";
 
 export default {
   title: "Card",
@@ -14,5 +14,5 @@ const Template: ComponentStory<typeof Card> = (args) => <Card {...args} />;
 export const Default = Template.bind({});
 
 Default.args = {
-  pokemon: pokemonMock.fire
+  pokemon: pokemonMock.fire,
 };

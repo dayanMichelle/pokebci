@@ -2,10 +2,10 @@ import styles from "./InfoPokemon.module.css";
 
 type InfoPokemonProps = {
   id: number;
-  name:string
+  name: string;
 };
 
-export const InfoPokemon = ({ id,name }: InfoPokemonProps) => {
+export const InfoPokemon = ({ id, name }: InfoPokemonProps) => {
   return (
     <div className={styles.containerInfo}>
       <p>#{id}</p>

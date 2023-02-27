@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { ContainerImages } from "./ContainerImages";
 import { pokemonMock } from "../../test/mocks/pokemonMock";
-import '../../index.css'
+import "../../index.css";
 
 export default {
   title: "ContainerImages",

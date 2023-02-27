@@ -26,7 +26,7 @@
 }
 .btn {
   background-color: #febb31;
-  background-image: linear-gradient( to bottom, hsl(32, 100%, 42%), #fde694 );
+  background-image: linear-gradient(to bottom, hsl(32, 100%, 42%), #fde694);
   background-position: top;
   background-size: 100% 200%;
   border: none;
@@ -40,7 +40,7 @@
 }
 
 .btn:hover {
-  background-position: bottom; 
+  background-position: bottom;
   opacity: 0.9;
 }
 

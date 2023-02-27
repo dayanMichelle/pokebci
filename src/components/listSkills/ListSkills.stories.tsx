@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { ListSkills } from "./ListSkills";
 import { pokemonMock } from "../../test/mocks/pokemonMock";
-import '../../index.css'
+import "../../index.css";
 
 export default {
   title: "ListSkills",
@@ -16,11 +16,11 @@ const Template: ComponentStory<typeof ListSkills> = (args) => (
 export const Abilities = Template.bind({});
 
 Abilities.args = {
-  skills: pokemonMock.fire.abilities.slice(0,4),
+  skills: pokemonMock.fire.abilities.slice(0, 4),
 };
 
 export const Moves = Template.bind({});
 
 Moves.args = {
-  skills: pokemonMock.fire.moves.slice(0,4),
+  skills: pokemonMock.fire.moves.slice(0, 4),
 };
