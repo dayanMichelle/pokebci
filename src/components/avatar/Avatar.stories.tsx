@@ -17,4 +17,5 @@ export const WithAvatar = Template.bind({});
 
 WithAvatar.args = {
   icon: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+  name: "charmander",
 };
