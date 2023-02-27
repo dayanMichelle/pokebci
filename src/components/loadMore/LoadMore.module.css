@@ -1,0 +1,13 @@
+.getmore {
+  background-color: #ff7b54;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+.getmore:hover {
+  transition: 0.2s ease;
+  transform: scale(1.1);
+}
