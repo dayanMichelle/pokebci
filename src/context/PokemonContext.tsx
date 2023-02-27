@@ -5,7 +5,7 @@ import { usePokemons } from "../hooks/usePokemons";
 import { Filter, PokemonContract } from "../types";
 
 // Context
-type ContextProps = {
+export type ContextProps = {
   pokemons: PokemonContract[];
   abilities: string[];
   moves: string[];
