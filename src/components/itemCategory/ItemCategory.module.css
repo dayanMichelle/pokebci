@@ -1,0 +1,20 @@
+.li > a {
+  display: block;
+  width: 250px;
+}
+.li {
+  list-style: none;
+}
+.category {
+  color: var(--navbar-item);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.li:hover {
+  background-color: var(--navbar-item);
+  cursor: pointer;
+  color: white;
+}
+.li:hover a {
+  color: white;
+}
