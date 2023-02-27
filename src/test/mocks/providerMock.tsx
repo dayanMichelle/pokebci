@@ -1,6 +1,5 @@
 import React from "react";
 import { MemoryRouter } from "react-router-dom";
-import { vi } from "vitest";
 import { ContextProps, PokemonContext } from "../../context/PokemonContext";
 import { Filter, PokemonContract } from "../../types";
 import { pokemonMock } from "./pokemonMock";

@@ -1,0 +1,27 @@
+.sidebar {
+  background-color: white;
+  border-radius: 10px;
+  border: 6px solid var(--wrap-color);
+  color: #6e6c6c;
+  display: flex;
+  flex-direction: column;
+  font-family: "Chakra Petch", sans-serif;
+  gap: 20px;
+  height: 90vh;
+  left: 20px;
+  overflow-y: scroll;
+  position: fixed;
+  top: 40px;
+  transform: translateX(-120%);
+  transition: transform 0.6s ease-in-out;
+  width: 250px;
+  z-index: 200;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
