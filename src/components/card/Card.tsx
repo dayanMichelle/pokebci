@@ -10,7 +10,11 @@ type CardProps = {
 
 export const Card = ({ pokemon }: CardProps) => {
   return (
-    <div  data-theme=''  className={`${styles.container} ${pokemon?.type}`}>
+    <div
+      data-testid="card"
+      data-theme=""
+      className={`${styles.container} ${pokemon?.type}`}
+    >
       <span className={styles.banner}>{pokemon?.type}</span>
       <InfoPokemon name={pokemon?.name} id={pokemon?.id} />
       <ContainerImages
