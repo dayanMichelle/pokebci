@@ -23,9 +23,7 @@ export const ListCategories = ({
       {show && (
         <ul className={styles.listCategories}>
           {listTypes.map((type) => {
-            return (
-              <ItemCategory key={type} category={category} type={type} />
-            );
+            return <ItemCategory key={type} category={category} type={type} />;
           })}
         </ul>
       )}
