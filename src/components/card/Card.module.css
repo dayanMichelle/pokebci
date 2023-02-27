@@ -1,0 +1,30 @@
+.container {
+  -webkit-align-items: center;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  margin: 20px;
+  position: relative;
+  width: 350px;
+}
+
+.banner {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background: var(--container-color);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 5px 24px 0 rgba(31, 38, 135, 0.37);
+  color: white;
+  display: block;
+  font-weight: 700;
+  left: 15px;
+  padding: 5px 50px;
+  position: absolute;
+  top: -10px;
+}
