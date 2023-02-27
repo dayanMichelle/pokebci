@@ -1,3 +1,4 @@
+import { it, describe, expect } from "vitest";
 import { render } from "@testing-library/react";
 import { pokemonMock } from "../../test/mocks/pokemonMock";
 import { ProviderMock } from "../../test/mocks/providerMock";
@@ -7,7 +8,7 @@ describe("ItemCategory", () => {
   const category = "abilities";
   const type = pokemonMock.fire.abilities[0];
 
-  test("renders component", () => {
+  it("renders component", () => {
     const { getByText } = render(
       <ProviderMock>
         <ItemCategory category={category} type={type} />

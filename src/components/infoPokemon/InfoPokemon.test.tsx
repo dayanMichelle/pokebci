@@ -1,9 +1,10 @@
+import { it, describe, expect } from "vitest";
 import { render } from "@testing-library/react";
 import { pokemonMock } from "../../test/mocks/pokemonMock";
 import { InfoPokemon } from "./InfoPokemon";
 
 describe("InfoPokemon", () => {
-  test("show pokemon's name and id", () => {
+  it("show pokemon's name and id", () => {
     const infoPokemon = {
       name: pokemonMock.fire.name,
       id: pokemonMock.fire.id,
