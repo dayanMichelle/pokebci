@@ -1,0 +1,27 @@
+.flex {
+  align-items: center;
+  display: grid;
+  gap: 80px;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100vh;
+  justify-items: center;
+  position: relative;
+  top: 45px;
+  width: 100%;
+}
+
+.location {
+  position: absolute;
+  bottom: -45px;
+  font-family: "Noto Sans SC", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+.img {
+  width: 200px;
+  object-fit: cover;
+  position: absolute;
+  grid-area: 1/ 2 / 2 / 3;
+}
