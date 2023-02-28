@@ -1,4 +1,5 @@
 .header {
+  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   position: fixed;
   width: 100%;
