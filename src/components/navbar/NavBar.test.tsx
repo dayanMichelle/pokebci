@@ -1,5 +1,5 @@
 import { it, describe, expect, vi } from "vitest";
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, render } from "@testing-library/react";
 import { NavBar } from "./NavBar";
 import { ProviderMock } from "../../test/mocks/providerMock";
 
@@ -23,7 +23,6 @@ describe("NavBar", () => {
     );
 
     expect(container).toBeInTheDocument();
-    screen.debug();
 
     const componentMenuButton = getByRole("button");
     fireEvent.click(componentMenuButton);
