@@ -7,7 +7,7 @@ describe("Layout", () => {
   it("renders component", () => {
     const { container } = render(
       <ProviderMock>
-        <Layout  />
+        <Layout />
       </ProviderMock>
     );
     expect(container).toBeInTheDocument();
