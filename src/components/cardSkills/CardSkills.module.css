@@ -1,0 +1,50 @@
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 4px hsl(47, 69%, 38%) solid;
+  height: 185px;
+  margin-top: 90px;
+  max-width: 360px;
+}
+.wrap {
+  -webkit-align-items: center;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  background-color: var(--wrap-color);
+  border-radius: 20px;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  font-family: "Chakra Petch", sans-serif;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 15px;
+}
+.name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn {
+  background-color: #febb31;
+  background-image: linear-gradient(to bottom, hsl(32, 100%, 42%), #fde694);
+  background-position: top;
+  background-size: 100% 200%;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 6px;
+  padding: 2px;
+  transition: background-position 0.5s ease, opacity 0.5s ease;
+}
+
+.btn:hover {
+  background-position: bottom;
+  opacity: 0.9;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

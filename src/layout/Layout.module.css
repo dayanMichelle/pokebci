@@ -1,0 +1,9 @@
+.header {
+  backdrop-filter: blur(4px);
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+}
+.main {
+  padding-top: 50px;
+}

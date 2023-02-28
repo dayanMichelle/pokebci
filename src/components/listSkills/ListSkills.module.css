@@ -1,0 +1,25 @@
+.container {
+  background-color: white;
+  border-radius: 10px;
+  border: 5px #652cb3 solid;
+  color: #463b3b;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 100px;
+  padding: 3px;
+  width: 180px;
+}
+
+.move {
+  font-weight: bold;
+  justify-self: center;
+  text-transform: capitalize;
+}
+.container p {
+  font-size: 12px;
+  place-self: center;
+  text-align: center;
+  width: 80px;
+}
