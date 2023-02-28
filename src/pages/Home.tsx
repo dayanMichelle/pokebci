@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { Error } from "../components/error";
 import { ListPokemon } from "../components/listPokemon";
 import { Loading } from "../components/loading";
 import { LoadMore } from "../components/loadMore";
@@ -29,7 +30,7 @@ export const Home = () => {
         <LoadMore getPokemons={getPokemons} />
       </section>
       {isLoading && <Loading />}
-      {error && <div>error</div>}
+      {error && <Error />}
     </>
   );
 };

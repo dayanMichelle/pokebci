@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  background-color: white;
+  border: 6px solid var(--wrap-color);
+  border-radius: 10px;
+  padding: 20px;
+}
+.img {
+  margin-bottom: 20px;
+  width: 100px;
+}
