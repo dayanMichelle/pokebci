@@ -1,5 +1,5 @@
 import { it, describe, expect } from "vitest";
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, render } from "@testing-library/react";
 import { pokemonMock } from "../../test/mocks/pokemonMock";
 import { ProviderMock } from "../../test/mocks/providerMock";
 import { ListCategories } from "./ListCategories";

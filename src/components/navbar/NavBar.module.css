@@ -1,0 +1,50 @@
+.navbar {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  height: 50px;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.navbar input[type="text"] {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+.navbar {
+  margin-left: 20px;
+}
+
+.button {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #ff7b54;
+  color: #ff7b54;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  padding: 3px;
+  transition: 0.4s background-color ease-in-out;
+  width: 28px;
+}
+.button:hover {
+  background-color: #ff7b54;
+  color: white;
+}
+.containerSearch {
+  display: flex;
+  gap: 20px;
+}
+.logo {
+  animation: rotate 3s infinite linear;
+  width: 30px;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
